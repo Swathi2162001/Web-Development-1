@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+</head>
+ 
+<body>
+    <nav>
+        
+        <div class="heading">Home</div>
+        <div class="heading">About Us</div>
+        <div class="heading">Services</div>
+        <div class="heading">Gallery</div>
+        <div class="heading">Contact</div>
+        <span class="sideMenuButton"
+            onclick="openNavbar()">
+            ☰
+        </span>
+ 
+        <!--<div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>-->
+    </nav>
+ 
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar"
+        id="sideNavigationBar">
+        <a href="#" class="closeButton"
+            onclick="closeNavbar()">
+            ❌
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+ 
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Get Your Dream Car</h1>
+            <h2>Need To Rent a Car?</h2>
+            
+        </div>
+        <div class="side2">
+            <img src="car.jpg"
+                width="500">
+        </div>
+    </div>
+ 
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Rent with Following 3 steps</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Choose Location
+                        </a>
+                    </div>
+                    <p>
+                        When choosing a rental car location, 
+                        prioritize proximity to your arrival point, 
+                        compare costs to find affordability and return, 
+                        considering operating hours and additional fees.
+                    </p>
+                </div>
+                <div class="box">
+ 
+                    <div class="topic">
+                        <a href="" target="_blank">
+                           Pick_Up Date
+                        </a>
+                    </div>
+                    <p>
+                        Select a pick-up date that aligns with 
+                        your travel itinerary, allowing for flexibility 
+                        if needed. Consider factors like flight arrival 
+                        times, accommodation check-in, and planned activities
+                         to ensure a seamless transition. 
+                    </p>
+                </div>
+ 
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Book Your Car
+                        </a>
+                    </div>
+                    <p>
+                        When selecting a car, prioritize factors such as size,
+                         fuel efficiency, and features to suit your needs. 
+                         Consider the number of passengers, luggage space
+                          requirements, and any specific amenities desired
+                           for comfort and convenience. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up For Book a Car</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text"
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text"
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text"
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            10, 2090, 5th Cross Road, Janatha Nagar,
+                             TK Layout, Mysuru, Karnataka 570022
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Car rental services in Mysuru offer
+                             a range of vehicles for varying durations,
+                              from hourly to weekly rentals. Customers 
+                              can book cars online, through mobile apps,
+                               or directly with rental agencies. Options
+                                include economy cars, sedans, SUVs, and
+                                 sometimes specialty vehicles. Many agencies
+                                  provide the choice of hiring a driver
+                                   along with the vehicle. Renters typically
+                                    need to provide a valid driver's license,
+                                     proof of identity, and may opt for 
+                                     insurance coverage.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    
+    <script src="index.js"></script>
+</body>
+ 
+</html>
